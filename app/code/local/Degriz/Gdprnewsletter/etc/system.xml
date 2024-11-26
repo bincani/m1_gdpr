@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <Degriz translate="label" module="degriz_gdprnewsletter">
+            <label>Degriz Extensions</label>
+            <sort_order>100</sort_order>
+        </Degriz>
+    </tabs>
+    <sections>
+        <degriz_gdprnewsletter translate="label" module="degriz_gdprnewsletter">
+            <label>Degriz Gdpr Newsletter</label>
+            <tab>Degriz</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>Degriz Gdpr Newsletter settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <isactive translate="label">
+                            <label>Show confirmation checkbox</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                        </isactive>
+                        <jquery translate="label comment">
+                            <label>Include jQuery Library</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <comment>Mostly jQuery is already included</comment>
+                        </jquery>
+                        <text translate="label">
+                            <label>Confirmation text</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </text>
+                        <link translate="label">
+                            <label>Confirmation link text</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </link>
+                        <message translate="label">
+                            <label>Popup HTML</label>
+                            <frontend_type>Textarea</frontend_type>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </message>
+                    </fields>
+                </general>
+            </groups>
+        </degriz_gdprnewsletter>
+    </sections>
+</config>
