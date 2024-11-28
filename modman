@@ -1,0 +1,9 @@
+# Degriz_Gdprnewsletter
+app/code/local/Degriz/Gdprnewsletter                app/code/local/Degriz/Gdprnewsletter
+app/etc/modules/Degriz_Gdprnewsletter.xml           app/etc/modules
+app/design/frontend/base/default/layout/degriz      app/design/frontend/base/default/layout/degriz
+app/design/frontend/base/default/template/degriz    app/design/frontend/base/default/template/degriz
+app/locale/en_US/Degriz_Gdprnewsletter.csv          app/locale/en_US/Degriz_Gdprnewsletter.csv
+app/locale/sl_SI/Degriz_Gdprnewsletter.csv          app/locale/sl_SI/Degriz_Gdprnewsletter.csv
+js/degriz                                           js/degriz
+skin/frontend/base/default/css/degriz               skin/frontend/base/default/css/degriz
